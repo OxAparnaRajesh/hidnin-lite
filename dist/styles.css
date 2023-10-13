@@ -1,0 +1,19 @@
+@import 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+.modal-content {
+    font-family: 'Gabarito', cursive;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
