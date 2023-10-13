@@ -1,0 +1,20 @@
+{
+  "name": "behidn_popup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc && cp src/styles.css dist/styles.css",
+    "start": "node dist/index.js"
+  },
+  "styles": "dist/styles.css",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  }
+}
