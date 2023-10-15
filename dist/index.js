@@ -13,7 +13,7 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.closeModal = exports.showModal = void 0;
 var modalInitialized = false;
-var APIENDPOINT = "https://api.dev.behidn.com/api/v1/subscribers/request-otp";
+var APIENDPOINT = "https://api.dev.behidn.com/api/v1/subscribers/request-subscription";
 var api = "";
 // Append modal HTML to body
 function initModal(_a) {

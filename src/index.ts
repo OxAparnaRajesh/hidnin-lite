@@ -1,5 +1,5 @@
 let modalInitialized = false;
-let APIENDPOINT = "https://api.dev.behidn.com/api/v1/subscribers/request-otp"
+let APIENDPOINT = "https://api.dev.behidn.com/api/v1/subscribers/request-subscription"
 let api = "";
 
 interface ModalConfig {
